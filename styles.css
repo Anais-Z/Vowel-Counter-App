@@ -1,0 +1,15 @@
+html, body{
+    height: 50%;
+}
+
+main , header{
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+input{
+    width: 400px;
+}
