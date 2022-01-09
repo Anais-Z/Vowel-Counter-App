@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="styles.css">
-        <script src="script.js" defer></script>
+        <script type="module" src="script.js" defer></script>
     </head>
     <body>
         <header> Vowel Counting App</header>
@@ -13,8 +13,10 @@
                 <input type="text" id="enterText" name="enterText" placeholder="Enter Text">
             </div>
             <div>
-                <button>Submit</button>
+                <button class="submit">Submit</button>
+                <p id="result-vowels"></p>
             </div>
+
         </main>
     </body>
 </html>
